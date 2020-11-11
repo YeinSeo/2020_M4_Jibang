@@ -27,7 +27,7 @@
 + Merge
   - 실험적인 작업을 하고 싶을 때, 중심 기둥이 되는 코드(master branches)에 하는 게 아니라 곁가지를 만들어서 작업하는 것
   - 적절하게 잘 완성되면 마스터 브랜치와 합친다.
-  ---
+---
 ### Internet Journey - 인터넷은 어떻게 동작하는가
   <img src="http://www.tcpschool.com/lectures/img_webbasic_10.png" width="400" height="300">
   
