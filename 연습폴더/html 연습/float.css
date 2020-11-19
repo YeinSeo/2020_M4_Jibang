@@ -1,0 +1,38 @@
+#list {
+    width:1000px;
+    padding:0;
+}
+#list li {
+    list-style:none;
+    background:olive;
+    font-size:30px;
+    text-align:center;
+    padding:30px;
+    box-sizing:border-box;
+    width: 48%;
+    float:left;
+    margin: 1%;
+}
+/*
+.boxlefttop{
+    float: left;
+}
+
+.boxrighttop{
+    float: right;
+}
+
+.boxleftbottom{
+    float: left;
+}
+
+.boxrightbottom{
+    float: right;
+}
+*/
+p{
+    clear:both;
+}
+#comment {
+    font-size:24px;
+}
