@@ -1,0 +1,31 @@
+#container {
+	min-height:500px;
+	display:flex;
+}
+header {
+	background:darkseagreen;
+	font-size:30px;
+	color:#fff;
+	padding:10px;
+	flex-grow: 1;
+}
+#right-container {
+	display:flex;
+	flex-direction: column;
+	flex-grow: 10;
+}
+main {
+	background:gray;
+	font-size:30px;
+	color:#fff;
+	padding:10px;
+	flex-grow: 5;
+}
+footer {
+	background:pink;
+	font-size:30px;
+	padding:10px;
+}
+#aaa{
+	background-color: aqua;
+}
