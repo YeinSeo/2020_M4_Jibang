@@ -1,0 +1,322 @@
+/* 레이아웃 */
+#wrap {
+    display: flex;
+    flex-direction: column;
+}
+.center-container {
+    position: relative;
+    width: 2000px;
+    margin: 0px auto;
+}
+
+/* 헤더 */
+header {
+    height:100px;
+    position: relative;
+    display:flex;
+    width: auto;
+    background-color: white;
+    }
+#logo{
+    position: absolute;
+    left: 100px;
+    top: 30px;
+    font-size:30px;
+    font-weight: bold;
+}
+nav{
+    position: absolute;
+    left: 50%;
+    top: 35px;
+    text-align: center;
+    width: 600px;
+    margin-left:-300px;
+}
+nav a {
+    margin: 0 10px;
+}
+button{
+    position: absolute;
+    right: 100px;
+    top: 30px;
+    display: block;
+    width:160px;
+    height: 40px;
+    line-height:35px;
+    text-align: center;
+    border:1px solid black;
+}
+
+/* main */
+video {
+    height: auto;
+    width: auto;
+}
+main {
+}
+.카피문구 {
+    position: relative;
+    text-align: center;
+    font-size:25px;
+    font-weight: bold;
+    top: 30px;
+    margin-bottom: 70px;
+}
+.설명 {
+    position: relative;
+    text-align: center;
+    font-size:15px;
+    margin-bottom: 90px;
+}
+#center-container2 {
+    width: 2000px;
+    margin: 0 auto;
+    position: relative;
+    top: 50px;
+}
+.bluebox {
+    display: flex;
+    margin-left: 19%;
+}
+.bb1 {
+    background-color: #2D3E98;
+    padding: 30px 40px;
+    padding-top: 20px;
+    padding-left: 20px;
+    color: white;
+    width: 350px;
+    height: 180px;
+}
+.bb2{
+    background-color: #031252;
+    padding: 30px 40px;
+    padding-top: 20px;
+    padding-left: 20px;
+    color: white;
+    width: 350px;
+    height: 180px;
+}
+.bb3{
+    background-color: #2D3E98;
+    padding: 30px 40px;
+    padding-top: 20px;
+    padding-left: 20px;
+    color: white;
+    width: 350px;
+    height: 180px;
+}
+.txt1{
+    font-size: 18px;
+}
+.txt2{
+    position: relative;
+    top: 10px;
+    font-size: 15px;
+}
+.txt3{
+    position: relative;
+    top: 80px;
+    font-size: 13px;
+    bottom: 20px;
+}
+.article{
+    width: 1230px;
+    margin: 0px auto;
+}
+.article1{
+    position: relative;
+    margin-top: 50px;
+    padding-bottom: 9px;
+    padding-top: 9px;
+    border-bottom: 0.5px solid rgb(219, 219, 219);
+}
+.article2{
+    position: relative;
+    padding-bottom: 9px;
+    padding-top: 9px;
+    border-bottom: 0.5px solid rgb(219, 219, 219);
+}
+.article3{
+    position: relative;
+    padding-bottom: 9px;
+    padding-top: 9px;
+    border-bottom: 0.5px solid rgb(219, 219, 219);
+}
+.article4{
+    position: relative;
+    padding-bottom: 9px;
+    padding-top: 9px;
+    border-bottom: 0.5px solid rgb(219, 219, 219);
+}
+.article5{
+    position: relative;
+    padding-bottom: 9px;
+    padding-top: 9px;
+    border-bottom: 0.5px solid rgb(219, 219, 219);
+}
+.article6{
+    position: relative;
+    padding-bottom: 9px;
+    padding-top: 9px;
+    border-bottom: 0.5px solid rgb(219, 219, 219);
+}
+.section{
+    color: rgb(170, 170, 170);
+    float: left;
+    padding-right: 10px;
+    font-size: 15px;
+}
+.title {
+    color: black;
+    font-size: 14px;
+}
+.date{
+    color: rgb(112, 112, 112);
+    float: right;
+    font-size: 13px;
+}
+.background-box{
+    /* height: 1300px; */
+    height: 650px;
+    background-color: #f8f8f8;
+    margin-top: 100px;
+    position: relative;
+    width: auto;
+}
+
+.카피문구2 {
+    position: relative;
+    text-align: center;
+    font-size:25px;
+    font-weight: bold;
+    top: 70px;
+    margin-bottom: 85px;
+}
+.설명2 {
+    position: relative;
+    text-align: center;
+    font-size:15px;
+}
+.moment {
+    display: flex;
+    margin-left: 22%;
+    margin-top: 60px;
+}
+.mm1 {
+    background-color: white;
+    color: black;
+    width: 335px;
+    height: 350px;
+    border: 1px solid rgb(232, 232, 232);
+    line-height: 15px;
+}
+.mm2 {
+    background-color: white;
+    color: black;
+    width: 335px;
+    height: 350px;
+    border: 1px solid rgb(232, 232, 232);
+    line-height: 15px;
+    margin-left: 2%;
+}
+.mm3 {
+    background-color: white;
+    color: black;
+    width: 335px;
+    height: 350px;
+    border: 1px solid rgb(232, 232, 232);
+    line-height: 15px;
+    margin-left: 2%;
+}
+/* .mm4 {
+    background-color: white;
+    color: black;
+    width: 335px;
+    height: 350px;
+    border: 1px solid rgb(232, 232, 232);
+    line-height: 15px;
+    margin-left: 2%;
+}
+.mm5 {
+    background-color: white;
+    color: black;
+    width: 335px;
+    height: 350px;
+    border: 1px solid rgb(232, 232, 232);
+    line-height: 15px;
+    margin-left: 2%;
+}
+.mm6 {
+    background-color: white;
+    color: black;
+    width: 335px;
+    height: 350px;
+    border: 1px solid rgb(232, 232, 232);
+    line-height: 15px;
+    margin-left: 2%;
+} */
+.text1{
+    font-size: 15px;
+    padding: 0 15px;
+    padding-top: 20px;
+}
+.text2{
+    position: relative;
+    margin-top: 10px;
+    font-size: 13px;
+    padding: 0 15px;
+    color: rgb(112, 112, 112);
+}
+.text3{
+    position: relative;
+    font-size: 11px;
+    padding: 0 15px;
+    margin-top: 15px;
+    color: rgb(112, 112, 112);
+}
+/* footer */
+.center-container3{
+    position: relative;
+    width: 900px;
+    height: 250px;
+    margin: 0 auto;
+    margin-bottom: 10px;
+    border-bottom: 0.1px solid rgb(112, 112, 112);
+    display: flex;
+}
+footer {
+    position: relative;
+    background: #031252;
+    padding:30px 0;
+    color: white;
+    height: 365px;
+    font-size: 13px;
+}
+.sitemapbox {
+    display: flex;
+    justify-content: space-between;
+    width: 1040px;
+    margin: auto;
+    margin-bottom: 25px;
+}
+footer li a{
+    color: white;
+}
+.icon{
+    position: absolute;
+    left: 47%;
+    padding: 20px;
+    display: flex;
+}
+.youtube{
+    padding: 0px 35px;
+}
+.info{
+    display: flex;
+    color: rgb(255, 255, 255);
+    font-size: 11px;
+    position: relative;
+    top: 70px;
+    padding: 0px 20px;
+    left: 30%;
+} 
